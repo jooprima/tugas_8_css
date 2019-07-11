@@ -1,0 +1,31 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/08/00/26/cityscape-1081704_960_720.jpg");
+  background-size: cover;
+}
+
+div.satu {
+  background-color: white;
+  background-image: url("avocado.jpg");
+  background-repeat: repeat-y;
+  overflow: scroll;
+  border: 2px solid black;
+  width: 800px;
+  height: 400px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  text-align: right;
+  color: blue;
+}
+
+p.dua {
+  text-align: left;
+  color: green;
+}
+
+p.tiga {
+  text-align: center;
+  color: red;
+}
